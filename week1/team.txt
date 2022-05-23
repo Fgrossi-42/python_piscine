@@ -1,0 +1,6 @@
+Er metallo:
+| * fdrudi * | -> Francesco Drudi
+Er granaggio:
+| * mcerchi * | -> Mattia Cerchi
+Er solidissimo:
+| * fgrossi * | -> Flavio Grossi
