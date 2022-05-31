@@ -1,7 +1,7 @@
 import pandas as pd
 
 df=pd.read_csv('Salaries.csv')
-result = df[df["TotalPayBenefits"] == df['TotalPayBenefits'].min()]
+result = df.loc[df["TotalPayBenefits"] == df['TotalPayBenefits'].min(), "EmployeeName"].values[0]
 
-print(result["EmployeeName"])
+print(result)
 print("il poraccio sta in negativo oh")
