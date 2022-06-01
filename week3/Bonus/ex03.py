@@ -10,15 +10,15 @@ result2 = {}
 for x, y in data["tmdb_popularity"].sort_values(ascending=False)[:1].to_dict().items():
         result2[x] = (y, data["production_countries"].to_dict()[x], data["release_year"].to_dict()[x])
 
-print(result2)
+# print(result2)
+
+result3 = data[["production_countries", "release_year" , "tmdb_popularity"]].sort_values(by="tmdb_popularity",ascending=False)[:1]
 cars = []
 cars2 = []
 
 i =0
-for key, value in result2.items():
-    cars.append(value[2])
-    cars2.append(value[0])
-    print(value[0])
+cars.append(result3['release_year'].values[0])
+cars2.append(result3['tmdb_popularity'].values[0])
 
 plt.pie(cars2, labels=cars, autopct='%1.2f%%')
 plt.subplots_adjust(left=0.1,

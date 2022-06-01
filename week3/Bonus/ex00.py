@@ -17,8 +17,9 @@ for key, value in result.items():
         i = 4
     else:
          cars3.append(0.05)
+plt.figure(figsize=(10,10))
 plt.pie(cars2, labels=cars, explode=cars3, autopct='%1.2f%%',
-     shadow=True)
+     shadow=False)
 plt.title("NETFLIX &&&&&&&&&& CHILL")
 plt.xlabel('The number of films in the year between 2013-2021 is: ' + str(max))
 plt.show()
