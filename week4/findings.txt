@@ -1,3 +1,17 @@
+IDEA;
+1) confrontare numero di reati con quelli degli altri quartieri
+	a) numeri assoluti
+	b) reati ogni 10.000 persone
+2) studiare eventuali diminuizioni dei reati; confrontare il miglioramento/peggioramento del quartiere con gli altri
+3) Controllare la zona del quartiere peggiore, reati per ogni abitante.
+
+
+
+
+
+
+
+
 USEFUL LINKS:
 
 original link to the dataset we are working on:
@@ -15,6 +29,11 @@ https://medium.com/analytics-vidhya/how-to-plot-a-map-in-python-d78f17c0b4a4
 
 crimes and number of them trough the years;
 
+most dangerous locations overall, top 3:
+1801 HOWELL MILL RD NW              1975
+3393 PEACHTREE RD NE                1847
+2685 METROPOLITAN PKWY SW            893
+
 sum troughout 2009-2017:
 LARCENY-FROM VEHICLE    77345
 LARCENY-NON VEHICLE     64697
@@ -28,7 +47,7 @@ ROBBERY-COMMERCIAL       1855
 RAPE                      990
 HOMICIDE                  728
 
-2009:
+2009---most dangerous location(3393 PEACHTREE RD NE)
 LARCENY-FROM VEHICLE    11046
 LARCENY-NON VEHICLE      8439
 BURGLARY-RESIDENCE       7406
@@ -41,7 +60,7 @@ ROBBERY-COMMERCIAL        282
 RAPE                      100
 HOMICIDE                   80
 
-2010:
+2010---most dangerous location(3393 PEACHTREE RD NE)
 LARCENY-FROM VEHICLE    9213
 LARCENY-NON VEHICLE     8710
 BURGLARY-RESIDENCE      6713
@@ -54,7 +73,7 @@ ROBBERY-COMMERCIAL       207
 HOMICIDE                  88
 RAPE                      82
 
-2011:
+2011---most dangerous location(3393 PEACHTREE RD NE)
 LARCENY-NON VEHICLE     8915
 LARCENY-FROM VEHICLE    8638
 BURGLARY-RESIDENCE      6405
@@ -67,7 +86,7 @@ ROBBERY-COMMERCIAL       215
 RAPE                     131
 HOMICIDE                  87
 
-2012:
+2012---most dangerous location(3393 PEACHTREE RD NE)
 LARCENY-FROM VEHICLE    8828
 LARCENY-NON VEHICLE     8558
 BURGLARY-RESIDENCE      5262
@@ -80,7 +99,7 @@ ROBBERY-COMMERCIAL       179
 RAPE                     102
 HOMICIDE                  83
 
-2013:
+2013---most dangerous location(1801 HOWELL MILL RD NW)
 LARCENY-FROM VEHICLE    9286
 LARCENY-NON VEHICLE     8006
 BURGLARY-RESIDENCE      4910
@@ -93,7 +112,7 @@ ROBBERY-RESIDENCE        201
 RAPE                     101
 HOMICIDE                  83
 
-2014:
+2014---most dangerous location(1801 HOWELL MILL RD NW)
 LARCENY-FROM VEHICLE    9432
 LARCENY-NON VEHICLE     7403
 BURGLARY-RESIDENCE      4473
@@ -106,7 +125,7 @@ ROBBERY-RESIDENCE        212
 RAPE                     144
 HOMICIDE                  93
 
-2015:
+2015---most dangerous location(1801 HOWELL MILL RD NW)
 LARCENY-FROM VEHICLE    9539
 LARCENY-NON VEHICLE     7099
 AUTO THEFT              4235
@@ -119,7 +138,7 @@ ROBBERY-RESIDENCE        187
 RAPE                     155
 HOMICIDE                  92
 
-2016:
+2016---most dangerous location(1801 HOWELL MILL RD NW)
 LARCENY-FROM VEHICLE    9980
 LARCENY-NON VEHICLE     6616
 AUTO THEFT              3832
