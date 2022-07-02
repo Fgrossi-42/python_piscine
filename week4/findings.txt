@@ -1,0 +1,133 @@
+USEFUL LINKS:
+
+original link to the dataset we are working on:
+https://data.world/bryantahb/crime-in-atlanta-2009-2017
+
+complete map of the npu and various statistic:
+https://www.arcgis.com/home/item.html?id=d6298dee8938464294d3f49d473bcf15#overview
+
+how to work using geo-pandas and utilities:
+https://www.kaggle.com/code/lgmoneda/how-to-plot-data-in-the-city-map-using-geopandas/notebook
+http://darribas.org/gds15/content/labs/lab_03.html
+
+how to plot maps in python:
+https://medium.com/analytics-vidhya/how-to-plot-a-map-in-python-d78f17c0b4a4
+
+crimes and number of them trough the years;
+
+sum troughout 2009-2017:
+LARCENY-FROM VEHICLE    77345
+LARCENY-NON VEHICLE     64697
+BURGLARY-RESIDENCE      42941
+AUTO THEFT              38168
+AGG ASSAULT             19133
+ROBBERY-PEDESTRIAN      14446
+BURGLARY-NONRES          8505
+ROBBERY-RESIDENCE        1880
+ROBBERY-COMMERCIAL       1855
+RAPE                      990
+HOMICIDE                  728
+
+2009:
+LARCENY-FROM VEHICLE    11046
+LARCENY-NON VEHICLE      8439
+BURGLARY-RESIDENCE       7406
+AUTO THEFT               5666
+AGG ASSAULT              2594
+ROBBERY-PEDESTRIAN       2026
+BURGLARY-NONRES          1678
+ROBBERY-RESIDENCE         309
+ROBBERY-COMMERCIAL        282
+RAPE                      100
+HOMICIDE                   80
+
+2010:
+LARCENY-FROM VEHICLE    9213
+LARCENY-NON VEHICLE     8710
+BURGLARY-RESIDENCE      6713
+AUTO THEFT              4993
+AGG ASSAULT             2589
+ROBBERY-PEDESTRIAN      1659
+BURGLARY-NONRES         1284
+ROBBERY-RESIDENCE        232
+ROBBERY-COMMERCIAL       207
+HOMICIDE                  88
+RAPE                      82
+
+2011:
+LARCENY-NON VEHICLE     8915
+LARCENY-FROM VEHICLE    8638
+BURGLARY-RESIDENCE      6405
+AUTO THEFT              5248
+AGG ASSAULT             2515
+ROBBERY-PEDESTRIAN      1761
+BURGLARY-NONRES          990
+ROBBERY-RESIDENCE        269
+ROBBERY-COMMERCIAL       215
+RAPE                     131
+HOMICIDE                  87
+
+2012:
+LARCENY-FROM VEHICLE    8828
+LARCENY-NON VEHICLE     8558
+BURGLARY-RESIDENCE      5262
+AUTO THEFT              5098
+AGG ASSAULT             2459
+ROBBERY-PEDESTRIAN      1807
+BURGLARY-NONRES          775
+ROBBERY-RESIDENCE        243
+ROBBERY-COMMERCIAL       179
+RAPE                     102
+HOMICIDE                  83
+
+2013:
+LARCENY-FROM VEHICLE    9286
+LARCENY-NON VEHICLE     8006
+BURGLARY-RESIDENCE      4910
+AUTO THEFT              4451
+AGG ASSAULT             2231
+ROBBERY-PEDESTRIAN      1865
+BURGLARY-NONRES          885
+ROBBERY-COMMERCIAL       284
+ROBBERY-RESIDENCE        201
+RAPE                     101
+HOMICIDE                  83
+
+2014:
+LARCENY-FROM VEHICLE    9432
+LARCENY-NON VEHICLE     7403
+BURGLARY-RESIDENCE      4473
+AUTO THEFT              4125
+AGG ASSAULT             2187
+ROBBERY-PEDESTRIAN      1916
+BURGLARY-NONRES          960
+ROBBERY-COMMERCIAL       221
+ROBBERY-RESIDENCE        212
+RAPE                     144
+HOMICIDE                  93
+
+2015:
+LARCENY-FROM VEHICLE    9539
+LARCENY-NON VEHICLE     7099
+AUTO THEFT              4235
+BURGLARY-RESIDENCE      3923
+AGG ASSAULT             2113
+ROBBERY-PEDESTRIAN      1722
+BURGLARY-NONRES          817
+ROBBERY-COMMERCIAL       235
+ROBBERY-RESIDENCE        187
+RAPE                     155
+HOMICIDE                  92
+
+2016:
+LARCENY-FROM VEHICLE    9980
+LARCENY-NON VEHICLE     6616
+AUTO THEFT              3832
+BURGLARY-RESIDENCE      3409
+AGG ASSAULT             2170
+ROBBERY-PEDESTRIAN      1501
+BURGLARY-NONRES          968
+ROBBERY-RESIDENCE        205
+ROBBERY-COMMERCIAL       201
+RAPE                     142
+HOMICIDE                 107
