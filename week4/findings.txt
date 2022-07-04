@@ -2,13 +2,13 @@ IDEA;
 1) confrontare numero di reati con quelli degli altri quartieri
 	a) numeri assoluti
 	b) reati ogni 10.000 persone
-2) studiare eventuali diminuizioni dei reati; confrontare il miglioramento/peggioramento del quartiere con gli altri
+2) studiare eventuali diminuizioni dei reati; confrontare il miglioramento/peggioramento del quartiere con gli altri negli anni
 3) Controllare la zona del quartiere peggiore, reati per ogni abitante.
 
-
-
-
-
+4)se possibile creare una mappa cliccabile di tutti i NPU di Atlanta in modo da far 
+  uscire piú di un grafico (quello che abbiamo fatto finora é pochissimo quindi pensavo altri grafici su altre cose NON TUTTI PIEDIni virginia raggi ANIME)
+  se non riusciamo mettiamo semplicemente una mappa nel pdf di 200 parole e pace, peró comunque facciamo altri grafici
+  idee per un tipo di grafico carino??????????????????????
 
 
 
