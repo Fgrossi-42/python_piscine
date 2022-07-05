@@ -1,24 +1,46 @@
-import pandas as pd 
-import matplotlib.pyplot as plt
-import numpy as np
-import array as arr
 
-df = pd.read_csv("atlcrime.csv")
-df['year'] = pd.DatetimeIndex(df['date']).year
-df['month'] = pd.DatetimeIndex(df['date']).month
-result = df[df["year"] == 2009]
-print ("\n\n2009:\n",result["crime"].value_counts().sum())
-result = df[df["year"] == 2010]
-print ("\n\n2010:\n",result["crime"].value_counts().sum())
-result = df[df["year"] == 2011]
-print ("\n\n2011:\n",result["crime"].value_counts().sum())
-result = df[df["year"] == 2012]
-print ("\n\na2012:\n",result["crime"].value_counts().sum())
-result = df[df["year"] == 2013]
-print ("\n\n2013:\n",result["crime"].value_counts().sum())
-result = df[df["year"] == 2014]
-print ("\n\n2014:\n",result["crime"].value_counts().sum())
-result = df[df["year"] == 2015]
-print ("\n\n2015:\n",result["crime"].value_counts().sum())
-result = df[df["year"] == 2016]
-print ("\n\n2016:\n",result["crime"].value_counts().sum())
+# TROUGH THE YEARS CHECK
+
+# result = df[df["month"] == 1]
+# print ("\n\njanuary:\n",result["crime"].value_counts())
+# result = df[df["month"] == 2]
+# print ("\n\nfebruary:\n",result["crime"].value_counts())
+# result = df[df["month"] == 3]
+# print ("\n\nmarch:\n",result["crime"].value_counts())
+# result = df[df["month"] == 4]
+# print ("\n\napril:\n",result["crime"].value_counts())
+# result = df[df["month"] == 5]
+# print ("\n\nmay:\n",result["crime"].value_counts())
+# result = df[df["month"] == 6]
+# print ("\n\njune:\n",result["crime"].value_counts())
+# result = df[df["month"] == 7]
+# print ("\n\njuly:\n",result["crime"].value_counts())
+# result = df[df["month"] == 8]
+# print ("\n\naugust:\n",result["crime"].value_counts())
+# result = df[df["month"] == 9]
+# print ("\n\nseptember:\n",result["crime"].value_counts())
+# result = df[df["month"] == 10]
+# print ("\n\noctober:\n",result["crime"].value_counts())
+# result = df[df["month"] == 11]
+# print ("\n\nnovember:\n",result["crime"].value_counts())
+# result = df[df["month"] == 12]
+# print ("\n\ndecember:\n",result["crime"].value_counts())
+ # import pandas as pd
+# # from PIL import Image
+  
+# # img = Image.open("atlanta neighborhood.jpeg")
+# # img.show()
+# df = pd.read_csv("atlcrime.csv")
+# #test = df["crime"].value_counts()
+# # print(test)
+# df['year'] = pd.DatetimeIndex(df['date']).year
+# df['month'] = pd.DatetimeIndex(df['date']).month
+# # result1 = result["location"].value_counts()
+# result = df[df["crime"] == "LARCENY-FROM VEHICLE"]
+# # result = df["location"].value_counts()
+# # print(result["location"].value_counts())
+
+
+
+ 
+
