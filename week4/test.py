@@ -19,9 +19,17 @@ data['year'] = pd.DatetimeIndex(data['date']).year
 
 # code for the plot1 line chart
 
+sort = data.sort_values(by="npu")
+order = data.sort_values(by="npu")
+npu = order["npu"].dropna().unique()
+choice = input("Enter the number of the NPU location you want to see the crimes of:\n\n" + str(npu) + "\n\nenter: ")
+if choice.upper() not in npu:
+    print("Invalid input")
+    exit()
 for a in years:
-    result = data[data["year"] == a].value_counts().sum()
-    crimes.append(result)
+	result = data[data["year"] == a]
+	result1 = result[result["npu"] == choice.upper()].value_counts().sum()
+	crimes.append(result1)
 print(crimes)
 
 
@@ -47,15 +55,11 @@ for key, value in beat.items():
 zones = {'Zone 1':a[1], 'Zone 2':a[2], 'Zone 3':a[3], 'Zone 4':a[4], 'Zone 5':a[5], 'Zone 6':a[6], 'Other Zones':a[7]}
 courses = list(zones.keys())
 values = list(zones.values())
+banana = data[data["npu"] == choice.upper()]
+zone = banana["beat"].median()
 
 # code for the plot3 pie chart
 
-order = data.sort_values(by="npu")
-npu = order["npu"].dropna().unique()
-choice = input("Enter the number of the NPU location you want to see the crimes of:\n\n" + str(npu) + "\n\nenter: ")
-if choice.upper() not in npu:
-    print("Invalid input")
-    exit()
 result1 = data[data["npu"] == choice.upper()]
 result = result1["crime"].value_counts()
 max = result.sum()
@@ -63,19 +67,22 @@ for key, value in result.items():
     cars.append(key)
     cars2.append(value)
     if i == 0:
-        cars3.append(0.2)
+        cars3.append(0.1)
         i = 4
     else:
         cars3.append(0)
 
 plot1.plot(years, crimes, color='red', linewidth=2, linestyle='dashed', marker='o', markerfacecolor='blue', markersize=12, label='crime', antialiased=True)
-plot1.set_ylim(ymin=0, ymax=60000, auto=True)
+plot1.set_ylim(ymin=0, ymax=5000, auto=True)
 plot1.set_ylabel('the number of crimes', fontsize=12, color='black', weight="bold")
 plot1.set_title('the total number of crimes during the years', fontsize=20, weight="bold", color="black", style="italic")
 
-plot2.bar(courses, values, color ='maroon', width = 0.4)
+colors = ["r" if int(str(zone)[0]) != i else "b" for i in range(1,8)]
+plot2.bar(courses, values, color=colors, width = 0.4)
 plot2.set_title("Division of crimes beaten for Zone", fontsize=18, weight="bold", color="black", style="italic")
 plot2.set_ylabel("No. of crimes beaten for zones", fontsize=12, color='black', weight="bold")
+plot2.set_xlabel("the NPU you selected is in zone " + str(zone)[0], fontsize=12, color='black', weight="bold")
+
 
 plot3.pie(cars2, labels=None, explode=cars3, startangle=180)
 plot3.legend(loc="upper left", labels=cars, bbox_to_anchor=(1,1), ncol=1, fancybox=True, shadow=True, prop={'size': 12})
