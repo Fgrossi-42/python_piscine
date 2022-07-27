@@ -1,0 +1,12 @@
+How to Merge all CSV Files into a single dataframe – Python Pandas:
+https://www.tutorialspoint.com/how-to-merge-all-csv-files-into-a-single-dataframe-python-pandas#:~:text=To%20merge%20all%20CSV%20files%2C%20use%20the%20GLOB%20module.,merge%20the%20CSV%20files%20together.
+
+How to delete rows from a pandas DataFrame based on a conditional expression:
+https://stackoverflow.com/questions/13851535/how-to-delete-rows-from-a-pandas-dataframe-based-on-a-conditional-expression
+
+How to best validate email in pandas data frame:
+https://stackoverflow.com/questions/50148708/how-do-i-best-validate-email-in-pandas-data-frame
+
+codice fiscale e partita iva controlli rubati gentilmente qui:
+https://www.icosaedro.it/cf-pi/vedi-codice.cgi?f=pi-python.txt
+https://www.icosaedro.it/cf-pi/vedi-codice.cgi?f=cf-python.txt
